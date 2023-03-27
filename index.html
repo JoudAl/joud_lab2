@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--I denna meta ska vi definiera nyckelord för sökmotorer.-->
+    <meta name="keywords" content="HTML, CSS">
+    <!--Definiera den som har gjort webbplatsen.-->
+    <meta name="author" content="Joud Almualem">
+    <!--Definiera lite beskrivning.-->
+    <meta name="description" content="Webbplats för en pizzeria">
+    <!--för att ställa in visningsporten så att webbplatsen 
+                passar för alla enheter.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Dokumentets title.-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylesheet_print.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+    <style>
+        #draggable {z-index: 10; }
+        </style>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <title>Joud's Website</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo"><img src="images/fello.png" alt="logo"></div>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="nav">
+            <div class="menu">
+                <ul class="left-menu">
+                    <li> <a href="index.html">Hem</a> </li>
+                    <li> <a href="Abonnemang.html">Abonnemang</a> </li>
+                    <li> <a href="Om_oss.html">Om oss</a></li>
+                    <li> <a href="hjälp.html">Hjälp</a></li>
+                </ul>
+                <ul class="right-menu">
+                    <li> <a href="Sök.html">Sök</a></li>
+                    <li> <a href="Mina_Sidor.html">Mina sidor</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="main-content">
+        <div id="draggable" class="ui-widget-content">
+            <img src="images/like.png" alt="logo" style="height: 100px; width: auto">
+        </div>            
+        <div class="Homebackgrund">
+           
+            <div id="content-title"><b>Ett abonnemang som du vill ha det, Inte pappa.</b></div>
+            <div>
+                Vi har satt ihop ett abonnemang med allt du behöver som student - snacka hur mycket du
+                vill, välj din egen surfmängd och spara det som blir över. Bindningstid? Aldrig.
+                Utbytestermin? Bon voyage! Vi pausar ditt abonnemang gratis upp till ett helt år och finns
+                här igen när du landat hemma. Välkommen fello - stanna för att du vill. Inte för att du måste.
+            </div>
+            
+            <div id="home-button"><a href="Abonnemang.html"><b>TILL ABONNEMANG</b></a></div>
+            
+        </div>
+
+        <div class="Homeimg images">
+            
+        </div>
+    </div>
+
+
+    <div class="footer-content">
+        <div class="Homeimg2 images">
+            <img alt="A happy cute cartoon is enjoying alone." src="images/Homeimg2.png" id="happyImg">
+        </div>
+        <div class="hometext">
+            <b>Happy fello rightDubbel surf så länge du är<br> student!</b>
+            <p id="random-text"></p>
+        </div>
+        <button id="random-click-button">What Else?</button>
+    </div>
+</body>
+<script src="javascript/index.js"></script>
+</html>

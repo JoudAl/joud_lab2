@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--I denna meta ska vi definiera nyckelord för sökmotorer.-->
+    <meta name="keywords" content="HTML, CSS">
+    <!--Definiera den som har gjort webbplatsen.-->
+    <meta name="author" content="Joud Almualem">
+    <!--Definiera lite beskrivning.-->
+    <meta name="description" content="Webbplats för en pizzeria">
+    <!--för att ställa in visningsporten så att webbplatsen 
+                passar för alla enheter.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Dokumentets title.-->
+    <link rel="stylesheet" href="style.css">
+    <title>Joud's Website</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo"><img src="images/fello.png" alt="logo"></div>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu">
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
+        <nav class="nav">
+            <div class="menu">
+                <ul class="left-menu">
+                    <li> <a href="index.html">Hem</a> </li>
+                    <li> <a href="Abonnemang.html">Abonnemang</a> </li>
+                    <li> <a href="Om_oss.html">Om oss</a></li>
+                    <li> <a href="hjälp.html">Hjälp</a></li>
+                </ul>
+                <ul class="right-menu">
+                    <li> <a href="Sök.html">Sök</a></li>
+                    <li> <a href="Mina_Sidor.html">Mina sidor</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="myside">
+        <div class="minasidor">
+            <img src="images/mina_sidor1.png">
+        </div>
+
+        <div id="banking-text">
+            <h1>Logga in </h1>
+            <p>Hur Vill du logga in?</p>
+            <div>
+                <h3>Nu kan du logga in med BankID. Vi ökar säkerheten och gör det
+                    enklare för dig att tryggt komma åt dina uppgifter på Mina sidor.</h3>
+            </div>
+            <p><a href="https://app.bankid.com/?autostarttoken=[TOKEN]&redirect=[RETURNURL]">BankID</a></p>
+            <p><a href="inloggning.html">Epostadress</a></p>
+        </div>
+
+        <div class="minasidor2">
+            <img src="images/minasidor2.png">
+        </div>
+    </div>
+
+</body>
+
+</html>

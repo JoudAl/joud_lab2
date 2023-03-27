@@ -1,0 +1,39 @@
+@media print {
+    body {
+        background: white;
+        color: black;
+    }
+    #content-title {
+        font-size: 40px;
+        font-style: italic;
+        color: black;
+    }
+
+    .header {
+        background-color: white;
+    }
+
+    .nav {
+        visibility: hidden;
+        background-color: white;
+    }
+    .main-content {
+        background-color: white;
+    }
+    
+    .Homebackgrund {
+        color: black;
+    }
+
+    .Homeimg img {
+        width: 30%;
+        margin-left: 10em;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-shadow: none;
+        color: rgb(0, 0, 0);
+    }
+}
